@@ -60,6 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
         image: "images/Quiz-App.png",
         Link: "https://github.com/TanishqRathi12/Quiz-App"
     },
+    {
+      title: "Minsweeper Game",
+      description: "A Minesweeper game that challenges players to clear a grid without detonating hidden mines. With logic and strategy, players reveal tiles and mark suspected mines, aiming to complete the board safely Minesweeper game that challenges players to clear a grid without detonating hidden mines. With logic and strategy, players reveal tiles and mark suspected mines, aiming to complete the board safely",
+      image: "images/M-Game.png",
+      Link: "https://github.com/TanishqRathi12/Minesweeper-game"
+    },
   ];
 
   const displayProjects = (filteredProjects) => {
