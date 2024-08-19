@@ -31,6 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
       Link:"https://github.com/TanishqRathi12/Personal-Finance-Tracker",
     },
     {
+      title: "My Blogging App",
+      description: "My Blogging App: A full-stack MERN blogging platform that enables users to create, edit, and delete blog posts. User authentication and enhanced post management",
+      image: "images/Blog-App.png",
+      Link:"https://express-blog-server.onrender.com/",
+    },
+    {
       title: "Habit Tracker",
       description: "Habit Tracker: An interactive tool to help you establish and maintain habits. Add new habits, mark them as done, monitor your progress with a visual progress meter, and easily remove habits as needed",
       image: "images/H-Tracker.png",
