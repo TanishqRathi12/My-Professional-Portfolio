@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Social-Media-App",
       description: "Social Media App: A full-stack MERN social media platform featuring user sign-up, login, and profile customization. Users can post updates, like, and comment on content, with upcoming features including enhanced user exploration and connectivity",
       image: "images/Social-Media.png",
-      Link:"https://social-media-front-end-gilt.vercel.app",
+      Link:"https://social-media-front-end-seven.vercel.app",
     },
     {
       title: "Personal Finance Tracker",
