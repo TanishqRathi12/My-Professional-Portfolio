@@ -37,6 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
       Link:"https://express-blog-server.onrender.com/",
     },
     {
+      title: "Health Service App",
+      description: "A simple and intuitive web application for managing health services, allowing users to add, update, and delete services.",
+      image: "images/H-App.png",
+      Link: "https://github.com/TanishqRathi12/Health-Service-Frontend"
+    },
+    {
       title: "Habit Tracker",
       description: "Habit Tracker: An interactive tool to help you establish and maintain habits. Add new habits, mark them as done, monitor your progress with a visual progress meter, and easily remove habits as needed",
       image: "images/H-Tracker.png",
