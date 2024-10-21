@@ -25,6 +25,12 @@ document.addEventListener("DOMContentLoaded", () => {
       Link:"https://social-media-front-end-seven.vercel.app",
     },
     {
+      title: "Expirify App",
+      description: "It's a smart product management system that helps you keep track of your products' expiration dates effortlessly! 🎯📆 Here are the highlights: ✨ Manually add product details like the name, manufacturing date, and expiry date. 📝 ⚡ Scan products easily with your smartphone camera to automatically detect details! 📱📸 🎨 Get notified via Gmail if a product is expiring within the next month! 📨🔔",
+      image: "images/Expirify.png",
+      Link: "https://expirify-front-end.vercel.app"
+    },
+    {
       title: "Personal Finance Tracker",
       description: "Personal Finance Tracker: A user-friendly tool that allows you to manage your finances by adding income and expenses. It provides a comprehensive summary of your current financial status, helping you make informed decisions",
       image: "images/F-Tracker.png",
