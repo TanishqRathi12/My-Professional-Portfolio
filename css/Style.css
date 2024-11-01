@@ -28,6 +28,8 @@ header nav {
   transition: all 0.3s ease;
 }
 
+
+
 .logo {
   font-size: 2rem;
   font-weight: bold;
@@ -60,9 +62,12 @@ header nav {
   transition: transform 0.3s ease;
 }
 
+
 .menu-toggle:hover {
   transform: rotate(90deg);
 }
+
+
 
 .hero {
   display: flex;
@@ -380,3 +385,5 @@ body.resume-page {
     width: 100%;
   }
 }
+
+
