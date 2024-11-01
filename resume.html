@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="/css/Style.css">
+</head>
+
+<body class="resume-page">
+    <header>
+        <nav>
+            <div class="logo">Tanishq's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+    <div class="resume-container">
+        <object data="./Resume/TanishqRathi_Resume.pdf" type="application/pdf" class="resume-fullscreen">
+            <p>Your browser does not support PDFs. Please download the resume using the button below.</p>
+        </object>
+        <button class="download-button" onclick="downloadResume()">Download Resume</button>
+    </div>
+
+    <script>
+        function downloadResume() {
+            const link = document.createElement("a");
+            link.href = "./Resume/TanishqRathi_Resume.pdf";
+            link.download = "Tanishq_Resume.pdf";
+            link.click();
+        }
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+    <script>
+        document.getElementById('copyright').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
