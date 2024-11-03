@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectsContainer = document.querySelector(".projects-container");
   const projects = [
     {
-      title: "Social-Media-App",
-      description: "Social Media App: A full-stack MERN social media platform featuring user sign-up, login, and profile customization. Users can post updates, like, and comment on content, with upcoming features including enhanced user exploration and connectivity",
-      image: "images/Social-Media.png",
+      title: "KnackX (Social Media App)",
+      description: "KnackX(Social Media App): A full-stack MERN social media platform that allows users to sign up, log in, and customize their profiles. Users can create posts, like and comment on content, and follow/unfollow other users to enhance connectivity. The application features real-time updates, user profiles displaying follower counts, and an interactive feed for exploring posts from other users",
+      image: "images/KnackX.png",
       Link:"https://social-media-front-end-seven.vercel.app",
     },
     {
